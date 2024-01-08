@@ -26,7 +26,6 @@ else if(randomNumber2>randomNumber1){
 else{
     document.querySelector("h1").innerHTML = "Draw the match";
 }
-
 }
 
 function restart(){
@@ -35,6 +34,4 @@ img1.setAttribute("src", imageSource);
 var img2 = document.querySelectorAll("img")[1];
 img2.setAttribute("src", imageSource);
  document.querySelector("h1").textContent = "Lets Play";
-
-
 }
